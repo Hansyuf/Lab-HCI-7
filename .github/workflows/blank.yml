@@ -34,10 +34,10 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
- - name: Frogo-UI
-  # You may pin to the exact commit or the version.
-  # uses: frogobox/frogo-ui@244c16fd616e566558cc3f4929865c717a5a7355
-  uses: frogobox/frogo-ui@1.0.7
-  with:
-    # Input to use
-    myInput: # optional, default is world
+      - name: Frogo-UI
+        # You may pin to the exact commit or the version.
+        # uses: frogobox/frogo-ui@244c16fd616e566558cc3f4929865c717a5a7355
+        uses: frogobox/frogo-ui@1.0.7
+        with:
+          # Input to use
+          myInput: Frogo-UI # optional, default is world
